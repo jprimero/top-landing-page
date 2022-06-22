@@ -1,0 +1,37 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-container {
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 70%;
+  margin: auto;
+}
+
+.logo-container {
+  flex: 1;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.logo-item {
+  color: #E5E7EB;
+}
+
+.navigation-container {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.navigation-item {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+

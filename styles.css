@@ -35,3 +35,49 @@ body {
   color: #E5E7EB;
 }
 
+.top-content {
+  display: flex;
+  max-width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.top-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.top-left .main-text {
+  flex: 1 1 auto;
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bolder;
+}
+
+.top-left .secondary-text {
+  flex: 1 1 auto;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.top-left .button {
+  background-color: #3882F6;
+  font-weight: bolder;
+  width: 100px;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.top-right {
+  flex: 1;
+  display: flex;
+}
+
+.top-right .img {
+  flex: 1 1 auto;
+  background-color: #E5E7EB;
+}

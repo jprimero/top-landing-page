@@ -181,3 +181,12 @@ body {
   border-radius: 8px;
   padding: 6px 30px 6px 30px;
 }
+
+footer {
+  text-align: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  font-size: 18px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
